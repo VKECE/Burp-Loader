@@ -3,7 +3,7 @@ You should use java9+
 
 # 2. Place the 2 files in the same directory, then run:
   **Change blanks in Burpsuite_pro_v202_____.jar with Burp Suite Version**
- -> if Windows:
+  -> if Windows:
     "C:\Program Files\Java\jdk-13.0.2\bin\java.exe" --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:BurpSuiteLoader_v2020.11.3.jar -noverify -jar burpsuite_pro_v202_____.jar
 
   -> if Linux:  
