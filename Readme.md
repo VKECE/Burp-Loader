@@ -18,3 +18,8 @@
 		3. Select Manual Activation Option on your bottom Right in Burp Suite Pro.
 		4. Copy License Request from BurpSuite_Pro and paste in Burploader-old.jar
 		5. Copy license response from Burploader-old and paste in BurpSuite_Pro, and next and Done
+	**5. Create a Terminal Shortcut for Execution, so you dont have to enter Command at NO.2 all the times.**
+		1. With Sudo Permissions, Create a file with command "gedit /bin/burp"
+		2. Paste command in text editor "/usr/lib/jvm/java-11-openjdk-amd64/bin/java --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:/home/<user>/Downloads/BurpSuitePro/BurpSuiteLoader_v2020.11.3.jar -noverify -jar /home/<user>/Downloads/BurpSuitePro/burpsuite_pro_v202_____.jar &"    just change the directory for jar files and right version for jar files. And Save the File.
+		3. Change Permissions for files with command "chmod +x /bin/burp"
+	**6. For Execution just enter "burp" in terminal **
