@@ -1,7 +1,5 @@
-################################################################################
-			
-			**Prequisites**
-################################################################################
+##################################Prequisites##############################################
+
 
 	**Download .jar file for Burp Suite Pro from**
 		--> https://portswigger.net/burp/releases/download?product=pro&version=2021.2.1&type=Jar
@@ -11,10 +9,7 @@
 		**For Java** --> https://javadl.oracle.com/webapps/download/AutoDL?BundleId=244068_89d678f2be164786b292527658ca1605
 		**For JDK**  --> https://download.oracle.com/otn-pub/java/jdk/15.0.2%2B7/0d1cfde4252546c6931946de8db48ee2/jdk-15.0.2_windows-x64_bin.exe
 
-################################################################################
-			
-			**Execution and Activation**
-################################################################################
+##################################Execution and Activation################################
 	
 	**1. Place all files in 1 folder**
 		For Example lets take as --> C:\Users\Siddharth\Downloads\burp-suite\
